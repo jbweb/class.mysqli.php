@@ -1,11 +1,14 @@
 <?php
 
-// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-// = 14.02.2011 Jonas Bundgaard - MySQLi library	 						 =
-// =																		 =
-// = rev.2 - 15.02.2012														 =
-// = rev.2.5 - 14.09.2019													 =
-// = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+/**
+ * 14.02.2011 Jonas Bundgaard - MySQLi library
+ *
+ * rev.2 - 15.02.2012
+ * rev.2.5 - 14.09.2019
+ * rev 2.6 - 21.05.2024 (PHP 8.1 compatibility)
+ *
+ * This abstraction is obsolete. Consider using PDO instead.
+ */
 
 class mydb extends mysqli
 {
